@@ -36,7 +36,6 @@
 }
 
 html{
-    overflow: hidden; /* Prevents scrollbars from appearing */
     scroll-behavior: smooth; /* Smooth scrolling */
 }
 
@@ -89,7 +88,7 @@ html{
 }
 
 .hero-text__title{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     /* font-size: 2.5rem; */
     font-size: clamp(2.5rem, 1.972rem + 2.254vw, 4rem);
@@ -168,23 +167,70 @@ html{
 /* Main: Features Styles */
 .container .features{
     width: 100%;
+    padding: var(--spacing-400);
     display: flex;
     flex-direction: column;
-    padding: var(--spacing-400);
+    align-items: center;
+    gap: var(--spacing-800);
 }
-/* .timeline-step line{
-
-} */
+.timeline-step .line{
+    width: 1px;
+    height: 80px;
+    background-color: var(--slate-300);
+    margin: 0 auto;
+}
 
 .timeline-step .circle{
-    display: inline;
-    width: 100%;
-    border: 1px solid var(--slate-300);
-    border-radius: 1000px;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
     padding: var(--spacing-200);
+    border: 1px solid var(--slate-300);
+    border-radius: 50%;
+    text-align: center;
+    font-size: var(--spacing-200);
+    font-weight: 900;
+    color: var(--slate-600);
 }
 
-/* .timeline-step{
-    display:flex;
-    flex-direction: column;
-} */
+.features-pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: var(--spacing-200);
+}
+
+.features-pictures img{
+    width: 100%;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.features-text__subtitle{
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 110%;
+    letter-spacing: 4px;
+    color:var(--cyan-600);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: var(--spacing-200);
+}
+
+.features-text__title{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 110%;
+    color:var(--slate-900);
+    text-align: center;
+    padding-bottom: var(--spacing-400);
+}
+
+.features-text__description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color:var(--slate-600);
+    text-align: center;
+    padding-bottom: var(--spacing-400);
+}
