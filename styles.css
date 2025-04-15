@@ -39,6 +39,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: var(--white);
+}
+
 
 /* Hero Styles */
 .logo{
