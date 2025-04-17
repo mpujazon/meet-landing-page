@@ -13,18 +13,18 @@
     --white: #FAFAFA;
 
     /* Spacing Variables */
-    --spacing-1400: 7em;
-    --spacing-1000: 5em;
-    --spacing-900: 4.5em;
-    --spacing-800: 4em;
-    --spacing-700: 3.5em;
-    --spacing-600: 3em;
-    --spacing-500: 2.5em;
-    --spacing-400: 2em;
-    --spacing-300: 1.5em;
-    --spacing-200: 1em;
-    --spacing-100: .5em;
-    --spacing-50: .25em;
+    --spacing-1400: 7rem;
+    --spacing-1000: 5rem;
+    --spacing-900: 4.5rem;
+    --spacing-800: 4rem;
+    --spacing-700: 3.5rem;
+    --spacing-600: 3rem;
+    --spacing-500: 2.5rem;
+    --spacing-400: 2rem;
+    --spacing-300: 1.5rem;
+    --spacing-200: 1rem;
+    --spacing-100: .5rem;
+    --spacing-50: .25rem;
 }
 
 /* Global styles */
@@ -65,14 +65,6 @@ body{
     width: 50%;
     max-width: 118px;
 }
-/* .logo{
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 118px;
-    margin: 0 auto;
-    padding-top: var(--spacing-600);
-} */
 
 .hero-image-left{
     width: 140%;
