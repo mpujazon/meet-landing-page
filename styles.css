@@ -286,10 +286,7 @@ body{
         gap: var(--spacing-900) var(--spacing-400);
     }
 
-    .hero-image-left{
-        width: 117%;
-    }
-    .hero-image-right{
+    .hero-image-left, .hero-image-right{
         width: 117%;
     }
 
